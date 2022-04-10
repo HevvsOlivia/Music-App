@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+    font-family: 'Fira Sans', sans-serif;
+}
+
+body {
+    background-color: rgb(14, 14, 15);
+    color: #fff;
+    
+}
+
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.aboutContent {
+    margin-top: 3%;
+    
+}
+
+.aboutContent h1 {
+    padding: 0.5%;
+}
+
+.aboutContent p {
+    padding: 0.5%;
+}
+
+
+.content {
+   
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin-top: -6%;
+    
+}
+
+.c-player {
+    background-color: #313133;
+    display: block;
+    margin: 0 auto;
+    padding: 50PX;
+    border-radius: 16px;
+    
+}
+
+
+.c-player h4 {
+    color: #fff;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 400;
+    text-align: center;
+}
+
+.c-player p {
+    color: #AAA;
+    font-size: 14px;
+    text-align: center;
+    font-weight: 400;
+}
+
+.c-player--details .details-image {
+    position: relative;
+    width: fit-content;
+    margin: 0 auto;
+    margin-top: 10px;
+
+}
+
+.c-player--details .details-image img {
+    display: block;
+    margin: 0px auto;
+    width: 100%;
+    max-width: 250px;
+    border-radius: 16px;
+
+}
+
+.c-player--details .details-title {
+    color: #EEE;
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.c-player--details .details-artist {
+    color: #AAA;
+    font: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.c-player--details .details-album {
+    margin-bottom: 10px;
+}
+
+.c-player--controls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.c-player--controls .play-btn {
+    display: flex;
+    margin: 0 30px;
+    padding: 20px;
+    border-radius: 100%;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    cursor: pointer;
+
+
+}
+
+.c-player--controls .skip-btn {
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: #888;
+    font-size: 18px;
+}

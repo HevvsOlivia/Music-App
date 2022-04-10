@@ -2,14 +2,15 @@
 
 import React from "react";
 
-export const AboutArtist = ({ name, musicType, intro, album}) => {
-        return (
-        <>
-        <h1>Let's find out about {name}</h1>
-        <p>Their music is of the genre {musicType}</p>
-        <p>Let's find out a little more about them: {intro}</p>
-        <p>{album}</p>
-        </>
+export const AboutArtist = ({ name, musicType, intro }) => {
+    return (
+        <div className="about">
+            <div className="aboutContent">
+                <h1>{name}</h1>
+                <p>Music genre: {musicType}</p>
+                <p>{intro}</p>
+            </div>
+        </div>
     )
 }
 

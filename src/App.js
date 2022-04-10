@@ -1,16 +1,23 @@
 // App.js
 import React from 'react';
-import { Homepage } from './pages'
+import { Artist1, Artist2, Homepage } from './pages'
+
+
 
 
 function App() {
+    
     return (
-        <Homepage/>
+        <>
+            <Homepage />
+            
+        </>
     )
-  
+
 }
+
+
+
 
 export default App;
 
-//name, music type, intro paragraph
-//list of their songs/albums including name, release date, cover art
